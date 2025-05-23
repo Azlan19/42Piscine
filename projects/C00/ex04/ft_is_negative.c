@@ -6,7 +6,7 @@
 /*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/29 21:44:42 by oazlan            #+#    #+#             */
-/*   Updated: 2025/05/23 14:31:14 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/23 14:41:26 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,17 +34,15 @@ void	ft_is_negative(int n)
 	
 // 	write(1, " 9 = ", 5);
 // 	ft_is_negative(9);
-	
 // 	write(1, "\n", 1);
-	
+
 // 	write(1, "-9 = ", 5);
 // 	ft_is_negative(-9);
-	
 // 	write(1, "\n", 1);
-	
+
 // 	write(1, " 0 = ", 5);
 // 	ft_is_negative(0);
-	
 // 	write(1, "\n", 1);
+
 // 	return 0;
 // }
