@@ -6,11 +6,9 @@
 /*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/30 00:25:42 by oazlan            #+#    #+#             */
-/*   Updated: 2025/04/30 20:54:06 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/24 23:03:15 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-// #include <stdio.h>
 
 void	ft_div_mod(int a, int b, int *div, int *mod)
 {
@@ -18,15 +16,27 @@ void	ft_div_mod(int a, int b, int *div, int *mod)
 	*mod = a % b;
 }
 
+// #include <stdio.h>
 // int main()
 // {
-//      int num1 = 4;
-//      int num2 = 3;
-//      printf("\nBefore:\na = 10, b = 3\n");
-// 	 printf("num1 = %d, num2 = %d\n", num1, num2);
-// 	 printf("&num1 = %p, &num2 = %p\n", &num1, &num2);
-//      ft_div_mod(10, 3, &num1, &num2);
-// 	 printf("\nAfter:\n");
-// 	 printf("num1 = %d, num2 = %d\n", num1, num2);
-// 	 printf("&num1 = %p, &num2 = %p\n", &num1, &num2);
+// 	int a = 10;
+// 	int b = 3;
+//     int value_1 = 0;
+// 	int value_2 = 0;
+
+// 	printf("\na = %d, b = %d\n", a, b);
+
+// 	printf("\nBEFORE:\n");
+// 	printf("value_1 = %d, &value_1 = %p\n", value_1, &value_1);
+// 	printf("value_2 = %d, &value_2 = %p\n", value_2, &value_2);
+
+// 	ft_div_mod(a, b, &value_1, &value_2);
+
+// 	printf("\nAFTER:\n");
+// 	printf("value_1 = %d, &value_1 = %p\n", value_1, &value_1);
+// 	printf("value_2 = %d, &value_2 = %p\n", value_2, &value_2);
+
+// 	printf("\n");
+
+// 	return 0;
 // }
