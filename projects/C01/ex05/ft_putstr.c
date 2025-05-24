@@ -6,7 +6,7 @@
 /*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/30 00:54:04 by oazlan            #+#    #+#             */
-/*   Updated: 2025/04/30 22:27:04 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/24 23:09:34 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,8 +26,11 @@ void	ft_putstr(char *str)
 
 // int main()
 // {
-//      char *word = "humble";
+// 	char *word = "humble";
 
-//      ft_putstr(word);
-//      return 0;
+// 	ft_putstr(word);
+
+// 	write(1, "\n", 1);
+	
+// 	return 0;
 // }
