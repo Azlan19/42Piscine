@@ -10,11 +10,12 @@ The Piscine (French for '_**swimming pool**_') is a project-based, peer-to-peer 
 
 ---
 
-## 📅 Duration
+## 📅 Information
 
 **Start Date:** [28/04/2025]  
 **End Date:** [22/05/2025]  
 **Location:** [42 Heilbronn, Heilbronn, Germany]
+**Number of Pisciners:** `147`
 
 ---
 
