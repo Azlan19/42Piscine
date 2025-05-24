@@ -6,17 +6,15 @@
 /*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 16:59:46 by oazlan            #+#    #+#             */
-/*   Updated: 2025/05/15 17:38:42 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/24 23:31:21 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-// #include <stdio.h>
 
 void	ft_sort_int_tab(int *tab, int size)
 {
 	int	i;
 	int	temp;
-
+	
 	temp = 0;
 	i = 0;
 	while (i < size - 1)
@@ -32,17 +30,33 @@ void	ft_sort_int_tab(int *tab, int size)
 		i++;
 	}
 }
-// i = 0;
-// while (i < size)
-// {
-// 	printf("tab[i] = %d\n", tab[i]);
-// 	i++;
-// }
 
+// #include <stdio.h>
 // int	main(void)
 // {
-// 	int	int_array[] = {9, 8, 7, 6, 4, 0};
-
+// 	int i;
+// 	int array_size = 6;
+// 	int	int_array[] = {9, 5, 7, 4, 8, 0};
+	
+// 	printf("\nBEFORE:\n");
+// 	i = 0;
+// 	while (i < array_size)
+// 	{
+// 		printf("int_array[%d] = %d\n", i, int_array[i]);
+// 		i++;
+// 	}
+	
 // 	ft_sort_int_tab(int_array, 6);
+	
+// 	printf("\nAFTER:\n");
+// 	i = 0;
+// 	while (i < array_size)
+// 	{
+// 		printf("int_array[%d] = %d\n", i, int_array[i]);
+// 		i++;
+// 	}
+	
+// 	printf("\n");
+	
 // 	return (0);
 // }
