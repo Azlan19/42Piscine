@@ -45,11 +45,11 @@ The Piscine (French for '_**swimming pool**_') is a project-based, peer-to-peer 
 
 ## 📝 Exam Scores
 
-| Exam             | Hours | Score (x/100) |
-|------------------|-------|---------------|
-| `Exam 00`        | 4     | ✅ **70**     |
-| `Exam 01`        | 4     | ✅ **90**     |
-| `Exam 02`        | 4     | ✅ **90**     |
-| `Final Exam`     | 8     | ✅ **66**     |
+| Exam             | Duration | Score (x/100) |
+|------------------|----------|---------------|
+| `Exam 00`        | 4 Hours  | ✅ **70**      |
+| `Exam 01`        | 4 Hours  | ✅ **90**      |
+| `Exam 02`        | 4 Hours  | ✅ **90**      |
+| `Final Exam`     | 8 Hours  | ✅ **66**      |
 
 
