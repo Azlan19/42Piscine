@@ -6,16 +6,14 @@
 /*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/30 00:59:51 by oazlan            #+#    #+#             */
-/*   Updated: 2025/05/01 20:50:26 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/24 23:13:35 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-// #include <stdio.h>
 
 int	ft_strlen(char *str)
 {
 	int	counter;
-
+	
 	counter = 0;
 	while (str[counter] != '\0')
 	{
@@ -24,12 +22,12 @@ int	ft_strlen(char *str)
 	return (counter);
 }
 
-/*write a printf statement before
-return in the function*/
-
+// #include <stdio.h>
 // int main()
 // {
-//      char *word = "Bamboozle";
-//      ft_strlen(word);
-//      return 0;
+// 	char *word = "Bamboozle";
+	
+// 	printf("The string length of '%s' is %d characters\n", word, ft_strlen(word));
+	
+// 	return 0;
 // }
