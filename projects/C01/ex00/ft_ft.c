@@ -6,7 +6,7 @@
 /*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/30 00:00:01 by oazlan            #+#    #+#             */
-/*   Updated: 2025/05/04 10:42:36 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/24 22:30:25 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,3 +14,17 @@ void	ft_ft(int *nbr)
 {
 	*nbr = 42;
 }
+
+// #include <stdio.h>
+// int main ()
+// {
+// 	int x = 61;
+	
+// 	printf("BEFORE: x = %d\n", x);
+	
+// 	ft_ft(&x);
+	
+// 	printf("AFTER : x = %d\n", x);
+
+// 	return 0;
+// }
