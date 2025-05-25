@@ -6,11 +6,9 @@
 /*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/03 17:39:30 by oazlan            #+#    #+#             */
-/*   Updated: 2025/05/03 18:00:42 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/25 21:46:23 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-// #include <stdio.h>
 
 char	*ft_strupcase(char *str)
 {
@@ -32,14 +30,20 @@ char	*ft_strupcase(char *str)
 	return (str);
 }
 
-/*Add print statement before return str
-printf("%s", str);
-*/
-
+// #include <stdio.h>
 // int main()
 // {
-// 	char sentence[] = "";
+// 	char sentence[] = "abc 1 dEf 2 Ghi 3 jkL";
+	
+// 	printf("\nBEFORE:\n");
+// 	printf("%s\n", sentence);
+	
 // 	ft_strupcase(sentence);
-
+	
+// 	printf("\nAFTER:\n");
+// 	printf("%s\n", sentence);
+	
+// 	printf("\n");
+	
 // 	return 0;
 // }
