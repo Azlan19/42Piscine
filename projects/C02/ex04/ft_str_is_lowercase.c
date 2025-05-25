@@ -6,11 +6,9 @@
 /*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/01 16:17:50 by oazlan            #+#    #+#             */
-/*   Updated: 2025/05/01 18:02:07 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/25 21:32:09 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-// #include <stdio.h>
 
 int	ft_str_is_lowercase(char *str)
 {
@@ -37,9 +35,17 @@ int	ft_str_is_lowercase(char *str)
 	return (statement);
 }
 
+// #include <stdio.h>
 // int main()
 // {
-// 	char *word = "aAasdshfd";
-// 	ft_str_is_lowercase(word);
+// 	char *string_1 = "abcdefghijk";
+// 	char *string_2 = "abcdefgHijk";
+	
+// 	printf("\n1 = TRUE, 0 = FALSE\n\n");
+// 	printf("'%s' is all lowercase? %d\n",string_1, ft_str_is_lowercase(string_1));
+// 	printf("'%s' is all lowercase? %d\n",string_2, ft_str_is_lowercase(string_2));
+	
+// 	printf("\n");
+	
 // 	return 0;
 // }
