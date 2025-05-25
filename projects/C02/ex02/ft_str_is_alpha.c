@@ -6,17 +6,15 @@
 /*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/01 12:13:07 by oazlan            #+#    #+#             */
-/*   Updated: 2025/05/01 17:47:14 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/25 21:24:33 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-// #include <stdio.h>
 
 int	ft_str_is_alpha(char *str)
 {
 	int	i;
 	int	statement;
-
+	
 	if (*str == '\0')
 	{
 		return (1);
@@ -41,9 +39,17 @@ int	ft_str_is_alpha(char *str)
 	return (statement);
 }
 
+// #include <stdio.h>
 // int main()
 // {
-// 	char *word = "ZNAAAZAnocds";
-// 	ft_str_is_alpha(word);
+// 	char *word_1 = "ZNAAAZAnocds";
+// 	char *word_2 = "ZNAZAno6cd1s";
+	
+// 	printf("\n1 = TRUE, 0 = FALSE\n\n");
+// 	printf("%s is all aplhabetical? %d\n",word_1, ft_str_is_alpha(word_1));
+// 	printf("%s is all aplhabetical? %d\n",word_2, ft_str_is_alpha(word_2));
+	
+// 	printf("\n");
+	
 // 	return 0;
 // }
