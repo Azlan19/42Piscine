@@ -6,7 +6,7 @@
 /*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/01 12:13:07 by oazlan            #+#    #+#             */
-/*   Updated: 2025/05/25 21:27:19 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/25 21:32:55 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,8 +46,8 @@ int	ft_str_is_alpha(char *str)
 // 	char *string_2 = "ZNAZAno6cd1s";
 	
 // 	printf("\n1 = TRUE, 0 = FALSE\n\n");
-// 	printf("%s is all aplhabetical? %d\n",string_1, ft_str_is_alpha(string_1));
-// 	printf("%s is all aplhabetical? %d\n",string_2, ft_str_is_alpha(string_2));
+// 	printf("'%s' is all aplhabetical? %d\n",string_1, ft_str_is_alpha(string_1));
+// 	printf("'%s' is all aplhabetical? %d\n",string_2, ft_str_is_alpha(string_2));
 	
 // 	printf("\n");
 	
