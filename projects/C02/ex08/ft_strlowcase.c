@@ -6,11 +6,9 @@
 /*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/03 17:57:36 by oazlan            #+#    #+#             */
-/*   Updated: 2025/05/03 18:00:14 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/25 21:48:38 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-// #include <stdio.h>
 
 char	*ft_strlowcase(char *str)
 {
@@ -32,15 +30,20 @@ char	*ft_strlowcase(char *str)
 	return (str);
 }
 
-/*Add print statement before return str
-
-printf("%s", str);
-*/
-
+// #include <stdio.h>
 // int main()
 // {
-// 	char sentence[] = "WhsidsfioWISDIODIOA";
+// 	char sentence[] = "ABC 1 DeF 2 gHI 3 JKl";
+	
+// 	printf("\nBEFORE:\n");
+// 	printf("%s\n", sentence);
+	
 // 	ft_strlowcase(sentence);
-
+	
+// 	printf("\nAFTER:\n");
+// 	printf("%s\n", sentence);
+	
+// 	printf("\n");
+	
 // 	return 0;
 // }
