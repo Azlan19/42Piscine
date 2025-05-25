@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcapitalize.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: oazlan <oazlan@student.42.fr>              +#+  +:+       +#+        */
+/*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/03 18:04:53 by oazlan            #+#    #+#             */
-/*   Updated: 2025/05/18 17:43:58 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/25 21:51:48 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,8 +58,17 @@ char	*ft_strcapitalize(char *str)
 
 // int	main(void)
 // {
-// 	char	sentence[] = " hi, hOW are you? 42Words forty-two; fifty+and+one";
+// 	char	sentence[] = " hi, hOW are yOU? 42Words FOrty-tWo; fifty+aNd+one";
 
-// 	printf("%s\n", ft_strcapitalize(sentence));
+// 	printf("\nBEFORE:\n");
+// 	printf("%s\n", sentence);
+	
+// 	ft_strcapitalize(sentence);
+	
+// 	printf("\nAFTER:\n");
+// 	printf("%s\n", sentence);
+	
+// 	printf("\n");
+	
 // 	return (0);
 // }
