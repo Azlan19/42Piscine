@@ -6,17 +6,14 @@
 /*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/01 09:49:36 by oazlan            #+#    #+#             */
-/*   Updated: 2025/05/01 16:50:32 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/25 21:16:20 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-// #include <stdio.h>
-// #include <unistd.h>
 
 char	*ft_strcpy(char *dest, char *src)
 {
 	int	i;
-
+	
 	i = 0;
 	while (src[i] != '\0')
 	{
@@ -27,34 +24,23 @@ char	*ft_strcpy(char *dest, char *src)
 	return (dest);
 }
 
-// void	ft_putstr(char *str)
-// {
-// 	int	i;
-
-// 	i = 0;
-// 	while (str[i] != '\0')
-// 	{
-// 		write(1, &str[i], 1);
-// 		i++;
-// 	}
-// }
-
+// #include <stdio.h>
 // int main()
 // {
-// 	char source[7] = "Copper";
-// 	char destination[9] = "Platinum";
+// 	char source[] = "Copper";
+// 	char destination[] = "Platinum";
 
-// 	printf("\nBefore:\n");
-// 	ft_putstr(source);
-// 	printf("\n");
-// 	ft_putstr(destination);
-
+// 	printf("\nBEFORE:\n");
+// 	printf("Source      = %s\n", source);
+// 	printf("Destination = %s\n", destination);
+	
 // 	ft_strcpy(destination, source);
-
-// 	printf("\n\nAfter:\n");
-// 	ft_putstr(source);
+	
+// 	printf("\nAFTER:\n");
+// 	printf("Source      = %s\n", source);
+// 	printf("Destination = %s\n", destination);
+	
 // 	printf("\n");
-// 	ft_putstr(destination);
-
+	
 // 	return 0;
 // }
