@@ -6,11 +6,9 @@
 /*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/01 16:23:06 by oazlan            #+#    #+#             */
-/*   Updated: 2025/05/01 18:09:41 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/25 21:41:59 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-// #include <stdio.h>
 
 int	ft_str_is_printable(char *str)
 {
@@ -37,9 +35,17 @@ int	ft_str_is_printable(char *str)
 	return (statement);
 }
 
+// #include <stdio.h>
 // int main()
 // {
-// 	char *word = "AS D1'";
-// 	ft_str_is_printable(word);
+// 	char *string_1 = "a1Af   ";
+// 	char *string_2 = "a1Af\t";
+	
+// 	printf("\n1 = TRUE, 0 = FALSE\n\n");
+// 	printf("'%s' is all printable? %d\n",string_1, ft_str_is_printable(string_1));
+// 	printf("'%s' is all printable? %d\n",string_2, ft_str_is_printable(string_2));
+	
+// 	printf("\n");
+	
 // 	return 0;
 // }
