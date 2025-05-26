@@ -6,7 +6,7 @@
 /*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/12 18:44:54 by oazlan            #+#    #+#             */
-/*   Updated: 2025/05/14 20:29:30 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/26 21:31:42 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,12 +80,21 @@ void	ft_putnbr_base(int nbr, char *base)
 	}
 }
 
+// #include <stdio.h>
 // int main()
 // {
-// 	int n = -42;
-// 	char *symbols = "0123456789";
+// 	int number = -42;
+// 	char *base = "01";
 
-// 	ft_putnbr_base(n, symbols);
-// 	ft_putchar('\n');
+// 	printf("\nNumber = %d\n", number);
+// 	printf("Base   = '%s'\n", base);
+
+// 	printf("\n");
+
+// 	printf("Result:\n");
+// 	ft_putnbr_base(number, base);
+
+// 	printf("\n\n");
+
 // 	return (0);
 // }
