@@ -6,7 +6,7 @@
 /*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 19:20:21 by oazlan            #+#    #+#             */
-/*   Updated: 2025/05/17 16:36:44 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/26 17:58:33 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,9 @@ int	ft_strncmp(char *s1, char *s2, unsigned int n)
 // {
 // 	char *word1 = "Hellz";
 // 	char *word2 = "Hella";
-// 	printf("%d\n", ft_strncmp(word1, word2, 4));
+// 	int limit = 4;
+	
+// 	printf("\nThe difference between '%s' and '%s' when comparing at most the first %d characters is %d\n\n", word1, word2, limit, ft_strncmp(word1, word2, limit));
+	
 // 	return (0);
 // }
