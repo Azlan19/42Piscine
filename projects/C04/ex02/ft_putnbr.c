@@ -6,7 +6,7 @@
 /*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/04 11:42:34 by oazlan            #+#    #+#             */
-/*   Updated: 2025/05/07 18:41:14 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/26 21:21:05 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,22 @@ void	ft_putnbr(int nb)
 }
 
 // int main()
-// {
+// {	
+// 	ft_putchar('\n');
+
 // 	ft_putnbr(2147483647);
+// 	ft_putchar('\n');
+
+// 	ft_putnbr(2147483646);
+// 	ft_putchar('\n');
+
+// 	ft_putnbr(-2147483648);
+// 	ft_putchar('\n');
+
+// 	ft_putnbr(-2147483647);
+// 	ft_putchar('\n');
+
+// 	ft_putchar('\n');
+
 // 	return 0;
 // }
