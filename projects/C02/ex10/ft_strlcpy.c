@@ -3,38 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: oazlan <oazlan@student.42.fr>              +#+  +:+       +#+        */
+/*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 17:44:36 by oazlan            #+#    #+#             */
-/*   Updated: 2025/05/18 17:37:59 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/26 20:49:03 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-/*	The strlcpy() function copies and concatenates strings with the same input
-	parameters and output result as snprintf(3).
-
-	strlcpy() takes the full size of the destination buffer and guarantees
-	NUL-termination if there is room.  Note that room for the NUL should be
-	included in dstsize.
-
-	strlcpy() copies up to dstsize - 1 characters from the string src to dst,
-	NUL-terminating the result if dstsize is not 0.
-
-	If the src and dst strings overlap, the behavior is undefined.
-
-	Like snprintf(3), the strlcpy() function returns the total length of the
-	string it tried to create.  For strlcpy() that means the length of src.
-
-	If the return value is >= dstsize, the output string has been truncated.
-	It is the caller's responsibility to handle this.*/
-
-// #include <stdio.h>
 
 unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size)
 {
 	unsigned int	i;
 	unsigned int	counter;
-
+	
 	counter = 0;
 	while (src[counter] != '\0')
 	{
@@ -53,20 +33,27 @@ unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size)
 	return (counter);
 }
 
-// i = 0;
-// while (dest[i] != '\0')
-// {
-// 	printf("%c", dest[i]);
-// 	i++;
-// }
-// printf("\n");
-
+// #include <stdio.h>
 // int	main(void)
 // {
-// 	char	*word;
-// 	char	dest[5];
+// 	char src[] = "Hello, world!";
+// 	char dest[20];
+// 	unsigned int size_limit = 10;
 
-// 	word = "Hello, World!";
-// 	printf("%d\n", ft_strlcpy(dest, word, 5));
+	
+// 	printf("\nBEFORE:\n");
+// 	printf("Source           = '%s'\n", src);
+// 	printf("Destination      = '%s'\n", dest);
+// 	printf("Size Limit       = %d\n", size_limit);
+	
+// 	ft_strlcpy(dest, src, size_limit);
+	
+// 	printf("\nAFTER:\n");
+// 	printf("Source           = '%s'\n", src);
+// 	printf("Destination      = '%s'\n", dest);
+// 	printf("Length of source = %u\n", ft_strlcpy(dest, src, size_limit));
+	
+// 	printf("\n");
+	
 // 	return (0);
 // }
