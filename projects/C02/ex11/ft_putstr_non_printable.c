@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr_non_printable.c                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: oazlan <oazlan@student.42.fr>              +#+  +:+       +#+        */
+/*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/15 18:46:26 by oazlan            #+#    #+#             */
-/*   Updated: 2025/05/18 16:49:26 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/26 17:52:34 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,11 +47,17 @@ void	ft_putstr_non_printable(char *str)
 	}
 }
 
+// #include <stdio.h>
 // int	main(void)
 // {
-// 	char	*string;
+// 	char *string = "Hello\nHow are you?";
 
-// 	string = "Hello\nHow are you?";
+// 	printf("\nBEFORE:\n");
+// 	printf("Hello(\\n)\nHow are you?\n");
+	
+// 	printf("\nAFTER:\n");
 // 	ft_putstr_non_printable(string);
+	
+// 	printf("\n\n");
 // 	return (0);
 // }
