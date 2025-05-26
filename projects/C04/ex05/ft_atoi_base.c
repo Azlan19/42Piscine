@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi_base.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: oazlan <oazlan@student.42.fr>              +#+  +:+       +#+        */
+/*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/14 20:30:18 by oazlan            #+#    #+#             */
-/*   Updated: 2025/05/21 07:43:57 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/26 21:34:03 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,14 +75,12 @@ int	position(char c, char *base)
 
 int	ft_atoi_base(char *str, char *base)
 {
-	int	i;
 	int	sign;
 	int	result;
 
 	result = 0;
 	if (!basecheck(base))
 		return (0);
-	i = 0;
 	while (ft_isspace(str))
 		str++;
 	sign = 1;
