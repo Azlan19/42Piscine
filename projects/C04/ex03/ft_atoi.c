@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: oazlan <oazlan@student.42.fr>              +#+  +:+       +#+        */
+/*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/05 18:45:28 by oazlan            #+#    #+#             */
-/*   Updated: 2025/05/20 16:55:19 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/26 21:24:48 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,7 +59,15 @@ int	ft_atoi(char *str)
 // #include <stdio.h>
 // int main()
 // {
-// 	char *word =  "";
-// 	printf("%d\n", ft_atoi(word));
+// 	char *word =  "		 	  	+--++-1234a567";
+	
+// 	printf("\nBEFORE:\n");
+// 	printf("String  = '%s'\n", word);
+	
+// 	printf("\nAFTER:\n");
+// 	printf("Integer = %d\n", ft_atoi(word));
+	
+// 	printf("\n");
+	
 // 	return (0);
 // }
