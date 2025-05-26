@@ -6,7 +6,7 @@
 /*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 20:45:40 by oazlan            #+#    #+#             */
-/*   Updated: 2025/05/17 16:36:52 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/26 21:02:50 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,11 +35,24 @@ char	*ft_strncat(char *dest, char *src, unsigned int nb)
 }
 
 // #include <stdio.h>
-// int main()
+// int	main(void)
 // {
-// 	char word1[15] = "Hello";
-// 	char *word2 = "World";
-// 	printf("%s\n", ft_strncat(word1, word2, 2));
+// 	char dest[50] = "Hello";
+// 	char src[] = ", wonderful world!";
+// 	unsigned int nb = 10;
 
+// 	printf("\nBEFORE:\n");
+// 	printf("Source      = '%s'\n", src);
+// 	printf("Destination = '%s'\n", dest);
+// 	printf("\nNumber of characters to concatenate: %u\n", nb);
+	
+// 	ft_strncat(dest, src, nb);
+	
+// 	printf("\nAFTER:\n");
+// 	printf("Source      = '%s'\n", src);
+// 	printf("Destination = '%s'\n", dest);
+	
+// 	printf("\n");
+	
 // 	return (0);
 // }
