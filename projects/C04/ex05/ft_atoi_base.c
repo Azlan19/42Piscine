@@ -6,7 +6,7 @@
 /*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/14 20:30:18 by oazlan            #+#    #+#             */
-/*   Updated: 2025/05/26 21:34:03 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/26 21:37:31 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -101,13 +101,14 @@ int	ft_atoi_base(char *str, char *base)
 }
 
 // #include <stdio.h>
-
 // int	main()
 // {
-// 	char str[] = "101010";
-// 	char base[] = "01";
+// 	char *str = "101010";
+// 	char *base = "01";
 
-// 	printf("%d\n", ft_atoi_base(str, base));
+// 	printf("\nString = %s\n", str);
+// 	printf("Base   = %s\n", base);
+// 	printf("\nInteger Result = %d\n\n", ft_atoi_base(str, base));
 
 // 	return (0);
 // }
