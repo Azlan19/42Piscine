@@ -6,16 +6,9 @@
 /*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/08 08:52:05 by oazlan            #+#    #+#             */
-/*   Updated: 2025/05/17 16:37:42 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/26 21:07:51 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-/*The strstr() function locates the first occurrence of the null-terminated
-string needle in the null-terminated string haystack.
-
-If needle is an empty string, haystack is returned; if needle occurs
-nowhere in haystack, NULL is returned; otherwise a pointer to the first
-character of the first occurrence of needle is returned. */
 
 char	*ft_strstr(char *str, char *to_find)
 {
@@ -48,10 +41,19 @@ char	*ft_strstr(char *str, char *to_find)
 // #include <stdio.h>
 // int main()
 // {
-// 	char *largestring = "Foo Bar Baz";
-//     char *smallstring = " ";
+// 	char *haystack = "Foo Bar Baz";
+//     char *needle = "ar";
 
-// 	printf("%s", ft_strstr(largestring, smallstring));
-
+// 	printf("\n");
+	
+// 	printf("Needle       = '%s'\n", needle);
+// 	printf("Haystack     = '%s'\n", haystack);
+	
+// 	printf("\n");
+	
+// 	printf("Final string = '%s'\n", ft_strstr(haystack, needle));
+	
+// 	printf("\n");
+	
 // 	return (0);
 // }
