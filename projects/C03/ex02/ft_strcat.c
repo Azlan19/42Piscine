@@ -6,7 +6,7 @@
 /*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 19:25:17 by oazlan            #+#    #+#             */
-/*   Updated: 2025/05/17 16:36:31 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/26 20:59:25 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,19 +32,22 @@ char	*ft_strcat(char *dest, char *src)
 }
 
 // #include <stdio.h>
-// #include <string.h>
-
-// int main() {
-// 	char str1[] = "Hello";
-// 	char str2[] = "World";
-// 	char str3[4] = "Hi";
-// 	//printf("str1 %d - ")
-// 	// Compare str1 and str2, and print the result
-// 	printf("%s\n", ft_strcat(str2, str1));
-
-// 	// Compare str1 and str3, and print the result
-// 	printf("%s\n", strcat(str3, str1));
-// 	printf("%lu\n", sizeof(str1));
-
+// int	main(void)
+// {
+// 	char dest[50] = "Hello";
+// 	char src[] = ", world!";
+	
+// 	printf("\nBEFORE:\n");
+// 	printf("Source      = '%s'\n", src);
+// 	printf("Destination = '%s'\n", dest);
+	
+// 	ft_strcat(dest, src);
+	
+// 	printf("\nAFTER:\n");
+// 	printf("Source      = '%s'\n", src);
+// 	printf("Destination = '%s'\n", dest);
+	
+// 	printf("\n");
+	
 // 	return (0);
-//   }
+// }
