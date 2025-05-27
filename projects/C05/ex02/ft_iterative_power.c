@@ -6,7 +6,7 @@
 /*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/08 16:12:57 by oazlan            #+#    #+#             */
-/*   Updated: 2025/05/11 12:15:52 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/27 16:05:24 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,13 @@ int	ft_iterative_power(int nb, int power)
 // #include <stdio.h>
 // int main()
 // {
-// 	printf("%d\n", ft_iterative_power(5, -2));
+// 	printf("\n");
+	
+// 	printf("5 ^ (5)  = %d\n", ft_iterative_power(5, 3));
+// 	printf("3 ^ (0)  = %d\n", ft_iterative_power(3, 0));
+// 	printf("2 ^ (-1) = %d\n", ft_iterative_power(2, -1));
+
+// 	printf("\n");
+	
 // 	return 0;
 // }
