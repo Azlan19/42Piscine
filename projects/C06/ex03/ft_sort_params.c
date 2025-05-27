@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_sort_params.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: oazlan <oazlan@student.42.fr>              +#+  +:+       +#+        */
+/*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/10 19:04:26 by oazlan            #+#    #+#             */
-/*   Updated: 2025/05/21 16:36:31 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/27 16:33:17 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,6 @@ int	main(int argc, char **argv)
 	}
 	j = 1;
 	while (j < argc)
-	
 	{
 		ft_putstr(argv[j]);
 		write(1, "\n", 1);
