@@ -6,7 +6,7 @@
 /*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/11 12:18:37 by oazlan            #+#    #+#             */
-/*   Updated: 2025/05/11 12:34:12 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/27 16:18:16 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,23 @@ int	ft_fibonacci(int index)
 // #include <stdio.h>
 // int main()
 // {
-// 	printf("%d\n", ft_fibonacci(2));
+// 	int limit = 15;
+// 	int i;
+	
+// 	printf("\nFIBONACCI SEQUENCE UP TO %dth element:\n\n", limit);
+	
+// 	i = 0;
+// 	while (i < limit)
+// 	{
+// 		printf("%d", ft_fibonacci(i));
+// 		i++;
+// 		if (i != limit)
+// 		{
+// 			printf(", ");
+// 		} 	
+// 	}
+		
+// 	printf("\n\n");
 
 // 	return 0;
 // }
