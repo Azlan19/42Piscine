@@ -6,7 +6,7 @@
 /*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/08 14:13:47 by oazlan            #+#    #+#             */
-/*   Updated: 2025/05/12 18:56:31 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/27 16:01:25 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,13 @@ int	ft_recursive_factorial(int nb)
 // #include <stdio.h>
 // int main()
 // {
-// 	printf("%d\n", ft_recursive_factorial(-1));
+// 	printf("\n");
+	
+// 	printf(" 5! = %d\n", ft_recursive_factorial(5));
+// 	printf(" 0! = %d\n", ft_recursive_factorial(0));
+// 	printf("-3! = %d\n", ft_recursive_factorial(-3));
+	
+// 	printf("\n");
+	
 // 	return 0;
 // }
