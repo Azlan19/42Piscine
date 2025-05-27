@@ -6,7 +6,7 @@
 /*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/11 12:56:12 by oazlan            #+#    #+#             */
-/*   Updated: 2025/05/11 13:23:48 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/27 16:26:25 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,12 +31,19 @@ int	ft_is_prime(int nb)
 // #include <stdio.h>
 // int main()
 // {
-// 	int j;
-// 	j = 0;
-// 	while(j <= 16)
+// 	int limit = 10;
+// 	int i;
+
+// 	printf("\n0 = YES, 1 = NO\n\n");
+	
+// 	i = 0;
+// 	while(i < limit)
 // 	{
-// 		printf("%d, is prime number? = %d\n", j, ft_is_prime(j));
-// 		j++;
+// 		printf("%d -> prime number? = %d\n", i, ft_is_prime(i));
+// 		i++;
 // 	}
+	
+// 	printf("\n");
+	
 // 	return 0;
 // }
