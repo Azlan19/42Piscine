@@ -6,7 +6,7 @@
 /*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/08 13:46:31 by oazlan            #+#    #+#             */
-/*   Updated: 2025/05/08 14:05:06 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/27 15:59:31 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,13 @@ int	ft_iterative_factorial(int nb)
 // #include <stdio.h>
 // int main()
 // {
-// 	printf("%d\n", ft_iterative_factorial(-3));
+// 	printf("\n");
+	
+// 	printf(" 5! = %d\n", ft_iterative_factorial(5));
+// 	printf(" 0! = %d\n", ft_iterative_factorial(0));
+// 	printf("-3! = %d\n", ft_iterative_factorial(-3));
+	
+// 	printf("\n");
+	
 // 	return 0;
 // }
