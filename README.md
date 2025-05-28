@@ -15,7 +15,7 @@ The Piscine (French for '_**swimming pool**_') is a project-based, peer-to-peer 
 **Start Date:** [28/04/2025]  
 **End Date:** [22/05/2025]  
 **Location:** [42 Heilbronn, Heilbronn, Germany]  
-**Number of Pisciners:** `147`
+**Number of Pisciners:** `147`  
 
 ---
 
@@ -23,6 +23,7 @@ The Piscine (French for '_**swimming pool**_') is a project-based, peer-to-peer 
 
 - **Final Level Reached:** `Level 8.91`
 - **Total Log Time:** `141 hours and 22 minutes`
+- **Status:** Accepted ✅
 
 ---
 ## 🧠 Skills & Tools
