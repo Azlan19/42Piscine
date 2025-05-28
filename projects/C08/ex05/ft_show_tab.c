@@ -3,16 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_show_tab.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: oazlan <oazlan@student.42.fr>              +#+  +:+       +#+        */
+/*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/20 19:01:30 by oazlan            #+#    #+#             */
-/*   Updated: 2025/05/21 11:54:44 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/28 13:25:04 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_stock_str.h"
 #include <unistd.h>
-
 
 void	ft_putchar(char c)
 {
