@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_ultimate_range.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: oazlan <oazlan@student.42.fr>              +#+  +:+       +#+        */
+/*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/11 20:39:43 by oazlan            #+#    #+#             */
-/*   Updated: 2025/05/21 11:45:10 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/28 13:19:52 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,14 +38,39 @@ int	ft_ultimate_range(int **range, int min, int max)
 	*range = ptr;
 	return (size);
 }
-// #include <stdio.h>
 
+// #include <stdio.h>
 // int	main(void)
 // {
-// 	int	*array;
+// 	int *range = NULL;
+// 	int min = 3;
+// 	int max = 8;
+// 	int size;
+// 	int i;
 
-// 	array = NULL;
-// 	printf("%d\n", ft_ultimate_range(&array, 0, 5));
+// 	size = ft_ultimate_range(&range, min, max);
+	
+// 	printf("\n");
+	
+// 	if (range == NULL)
+// 	{
+// 		if (size == 0)
+// 			printf("Empty range or memory allocation failed.\n");
+// 		else
+// 			printf("Unexpected error.\n");
+// 		return (1);
+// 	}
 
-// 	return (0);
+// 	printf("Range from %d to %d (exclusive):\n", min, max);
+// 	for (i = 0; i < size; i++)
+// 	{
+// 		printf("%d ", range[i]);
+// 	}
+// 	printf("\nAllocated size: %d\n", size);
+	
+// 	printf("\n");
+
+// 	free(range);
+
+// 	return 0;
 // }
