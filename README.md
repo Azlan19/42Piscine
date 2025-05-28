@@ -43,7 +43,7 @@ The Piscine (French for '_**swimming pool**_') is a project-based, peer-to-peer 
 - **Code refactoring & optimization** 🔧  
   > Improving code readability and performance  
 - **Git version control** 🌿  
-  > Managing code history using commits, branches, and merges  
+  > Tracking code changes and maintaining history using commits  
 - **Unix/Linux CLI navigation** 📂  
   > Navigating directories and handling files via terminal commands  
 - **Coding standards compliance** 🧾  
