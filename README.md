@@ -75,11 +75,8 @@ The Piscine (French for '_**swimming pool**_') is a project-based, peer-to-peer 
 | Project Name     | Topic                                     | Task Completion       | Grade (x/100)|  
 |------------------|-------------------------------------------|-----------------------|--------------|
 | `Rush 00`        | Printing shapes                           | -                      | ❌ **58**    |
-| `Rush 01`        | Backtracking                             | -                      | ❌ **0**     |
-| `Core Game`      | Coding a fighting bot                     | 🏅 4th Place / 24 teams | ❌ **0**     |
-
-
-
+| `Rush 01`        | Backtracking                              | -                      | ❌ **0**     |
+| `Core Game`      | Coding a fighting bot                     | 🏅 4th Place / 24 teams | ❌ **0**    |
 
 ---
 
@@ -92,4 +89,8 @@ The Piscine (French for '_**swimming pool**_') is a project-based, peer-to-peer 
 | `Exam 02`        | 4 Hours  | ✅ **90**      |
 | `Final Exam`     | 8 Hours  | ✅ **66**      |
 
+---
 
+## 🔚 Conclusion
+
+The **42 Piscine** has been a valuable learning experience, helping me build a solid foundation in programming and develop practical skills through both individual and group work. I’m grateful for the challenges and growth this journey has offered, and I look forward to applying what I’ve learned in future projects. 🔥
