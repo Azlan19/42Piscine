@@ -87,11 +87,11 @@ The Piscine (French for '_**swimming pool**_') is a project-based, peer-to-peer 
 
 ### 👥 Group Projects
 
-| Project Name     | Topic                                     | Task Completion       | Grade (x/100)|  
-|------------------|-------------------------------------------|-----------------------|--------------|
-| `Rush 00`        | Printing shapes                           | -                      | ❌ **58**    |
-| `Rush 01`        | Backtracking                              | -                      | ❌ **0**     |
-| `Core Game`      | Coding a fighting bot                     | 🏅 4th Place / 24 teams | ❌ **0**    |
+| Project Name     | Topic                          | Outcome                       |
+|------------------|--------------------------------|-------------------------------|
+| `Rush 00`        | Printing shapes                | -                             |
+| `Rush 01`        | Backtracking                   | -                             |
+| `Core Game`      | Coding a fighting bot          | 🏅 Placed 4th out of 24 teams |
 
 ---
 
