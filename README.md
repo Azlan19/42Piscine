@@ -25,8 +25,34 @@ The Piscine (French for '_**swimming pool**_') is a project-based, peer-to-peer 
 - **Total Log Time:** `141 hours and 22 minutes`
 
 ---
+## 🧠 Skills & Tools
+
+### 💬 Languages  
+- [**C**] 💻 - Low-level programming with manual memory management and pointers  
+- [**Bash**] 🐚 - Writing shell scripts and automating tasks in a Unix/Linux environment  
+
+### 🚀 Technical Skills  
+- [**Manual memory management**] 🧠 - Efficient use of `malloc`, `free`, and pointers  
+- [**Algorithm development**] 🧩 - Problem-solving using loops, recursion, and logic  
+- [**Debugging with LLDB**] 🐞 - Using breakpoints, stepping, and memory inspection via command-line  
+- [**Code refactoring & optimization**] 🔧 - Improving code readability and performance  
+- [**Git version control**] 🌿 - Managing code history using commits, branches, and merges  
+- [**Unix/Linux CLI navigation**] 📂 - Navigating directories and handling files via terminal commands  
+- [**Coding standards compliance**] 🧾 - Writing clean and consistent code using Norminette  
+
+### 🧰 Tools Used  
+- [**Visual Studio Code**] 🖥️ - Main development environment for editing and managing code  
+- [**Vim**] ✍️ - Terminal-based text editor used for quick changes  
+- [**Git**] 🔄 - Source control and project collaboration platform  
+- [**LLDB**] 🐛 - Terminal debugger for analyzing and fixing C code  
+- [**Norminette**] 📏 - 42’s custom code linter for enforcing coding standards  
+- [**Shell scripting**] 🛠️ - Writing scripts to automate routine development tasks  
+
+---
 
 ## 📁 Projects Completed
+
+### 🧑‍💻 Individual Projects
 
 | Project Name     | Topic                                     | Task Completion       | Grade (x/100)|  
 |------------------|-------------------------------------------|-----------------------|--------------|
@@ -41,9 +67,16 @@ The Piscine (French for '_**swimming pool**_') is a project-based, peer-to-peer 
 | `C 06`           | argc & argv                               | 💯 4/4   tasks         | ✅ **100**   |
 | `C 07`           | Malloc & Free                             | 🆗 3/6   tasks         | ✅ **60**    |
 | `C 08`           | Header files & Macros                     | 💯 6/6   tasks         | ✅ **100**   |
-| `Rush 00`        | Group Project - Printing shapes           | -                      | ❌ **58**    |
-| `Rush 01`        | Group Project - Backtracking              | -                      | ❌ **0**     |
-| `Core Game`      | Group Project - Coding a fighting bot     | 🏅 4th Place / 24 teams | ❌ **0**     |
+
+---
+
+### 👥 Group Projects
+
+| Project Name     | Topic                                     | Task Completion       | Grade (x/100)|  
+|------------------|-------------------------------------------|-----------------------|--------------|
+| `Rush 00`        | Printing shapes                           | -                      | ❌ **58**    |
+| `Rush 01`        | Backtracking                             | -                      | ❌ **0**     |
+| `Core Game`      | Coding a fighting bot                     | 🏅 4th Place / 24 teams | ❌ **0**     |
 
 
 
