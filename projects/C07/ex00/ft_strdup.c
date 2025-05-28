@@ -6,19 +6,10 @@
 /*   By: oazlan <oazlan@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/11 14:10:32 by oazlan            #+#    #+#             */
-/*   Updated: 2025/05/14 13:22:30 by oazlan           ###   ########.fr       */
+/*   Updated: 2025/05/28 13:14:18 by oazlan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/*
-DESCRIPTION
-The strdup() function allocates sufficient memory for a copy of the
-string s1, does the copy, and returns a pointer to it.  The pointer may
-subsequently be used as an argument to the function free(3).
-
-If insufficient memory is available, NULL is returned and errno is set to
-ENOMEM.
-*/
 #include <stdlib.h>
 
 char	*ft_strdup(char *src)
@@ -43,9 +34,27 @@ char	*ft_strdup(char *src)
 }
 
 // #include <stdio.h>
-// int main()
+// int main(void)
 // {
-// 	char *string = "Hello World";
-// 	printf("%s\n", ft_strdup(string));
+// 	char *src = "Hello, World";
+// 	char *copy;
+
+// 	printf("\n");
+// 	printf("Original string   = '%s'\n", src);
+	
+// 	copy = ft_strdup(src);
+	
+// 	if (copy != NULL)
+// 	{
+// 		printf("Duplicated string = '%s'\n", copy);
+// 		free(copy);
+// 	}
+// 	else
+// 	{
+// 		printf("Memory allocation failed.\n");
+// 	}
+	
+// 	printf("\n");
+	
 // 	return 0;
 // }
