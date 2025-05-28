@@ -1,4 +1,4 @@
-# 42Piscine
+# 42 Piscine 🏊‍♂️
 
 My GitHub repository documenting my experience during the **42 Piscine** - an intensive 4-week coding bootcamp by [42 Network](https://42.fr/en/homepage).
 
