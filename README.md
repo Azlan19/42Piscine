@@ -28,25 +28,40 @@ The Piscine (French for '_**swimming pool**_') is a project-based, peer-to-peer 
 ## 🧠 Skills & Tools
 
 ### 💬 Languages  
-- [**C**] 💻 - Low-level programming with manual memory management and pointers  
-- [**Bash**] 🐚 - Writing shell scripts and automating tasks in a Unix/Linux environment  
+- **C** 💻  
+  > Low-level programming with manual memory management and pointers  
+- **Bash** 🐚  
+  > Writing shell scripts and automating tasks in a Unix/Linux environment  
 
 ### 🚀 Technical Skills  
-- [**Manual memory management**] 🧠 - Efficient use of `malloc`, `free`, and pointers  
-- [**Algorithm development**] 🧩 - Problem-solving using loops, recursion, and logic  
-- [**Debugging with LLDB**] 🐞 - Using breakpoints, stepping, and memory inspection via command-line  
-- [**Code refactoring & optimization**] 🔧 - Improving code readability and performance  
-- [**Git version control**] 🌿 - Managing code history using commits, branches, and merges  
-- [**Unix/Linux CLI navigation**] 📂 - Navigating directories and handling files via terminal commands  
-- [**Coding standards compliance**] 🧾 - Writing clean and consistent code using Norminette  
+- **Manual memory management** 🧠  
+  > Efficient use of `malloc`, `free`, and pointers  
+- **Algorithm development** 🧩  
+  > Problem-solving using loops, recursion, and logic  
+- **Debugging with LLDB** 🐞  
+  > Using breakpoints, stepping, and memory inspection via command-line  
+- **Code refactoring & optimization** 🔧  
+  > Improving code readability and performance  
+- **Git version control** 🌿  
+  > Managing code history using commits, branches, and merges  
+- **Unix/Linux CLI navigation** 📂  
+  > Navigating directories and handling files via terminal commands  
+- **Coding standards compliance** 🧾  
+  > Writing clean and consistent code using Norminette  
 
 ### 🧰 Tools Used  
-- [**Visual Studio Code**] 🖥️ - Main development environment for editing and managing code  
-- [**Vim**] ✍️ - Terminal-based text editor used for quick changes  
-- [**Git**] 🔄 - Source control and project collaboration platform  
-- [**LLDB**] 🐛 - Terminal debugger for analyzing and fixing C code  
-- [**Norminette**] 📏 - 42’s custom code linter for enforcing coding standards  
-- [**Shell scripting**] 🛠️ - Writing scripts to automate routine development tasks  
+- **Visual Studio Code** 🖥️  
+  > Main development environment for editing and managing code  
+- **Vim** ✍️  
+  > Terminal-based text editor used for quick changes  
+- **Git** 🔄  
+  > Source control and project collaboration platform  
+- **LLDB** 🐛  
+  > Terminal debugger for analyzing and fixing C code  
+- **Norminette** 📏  
+  > 42’s custom code linter for enforcing coding standards  
+- **Shell scripting** 🛠️  
+  > Writing scripts to automate routine development tasks  
 
 ---
 
