@@ -28,19 +28,25 @@ The Piscine (French for '_**swimming pool**_') is a project-based, peer-to-peer 
 
 ## 📁 Projects Completed
 
-| Project Name     | Topic                                     | Task Completion | Grade (x/100)|  
-|------------------|-------------------------------------------|-----------------|--------------|
-| `Shell 00`       | Creating folders & changing access rights | 🆗 7/10  tasks   | ✅ **60**    |
-| `Shell 01`       | More with bash                            | 🆗 6/9   tasks   | ✅ **70**    |
-| `C 00`           | Reinventing standard library functions    | 🆗 8/9   tasks   | ✅ **85**    |
-| `C 01`           | Reinventing standard library functions    | 💯 9/9   tasks   | ✅ **100**   |
-| `C 02`           | Reinventing standard library functions    | 🆗 12/13 tasks   | ✅ **85**    |
-| `C 03`           | Reinventing standard library functions    | 💯 6/6   tasks   | ✅ **100**   |
-| `C 04`           | Reinventing standard library functions    | 💯 6/6   tasks   | ✅ **100**   |
-| `C 05`           | Different math functions                  | 🆗 8/9   tasks   | ✅ **80**    |
-| `C 06`           | argc & argv                               | 💯 4/4   tasks   | ✅ **100**   |
-| `C 07`           | Malloc & Free                             | 🆗 3/6   tasks   | ✅ **60**    |
-| `C 08`           | Header files & Macros                     | 💯 6/6   tasks   | ✅ **100**   |
+| Project Name     | Topic                                     | Task Completion       | Grade (x/100)|  
+|------------------|-------------------------------------------|-----------------------|--------------|
+| `Shell 00`       | Creating folders & changing access rights | 🆗 7/10  tasks         | ✅ **60**    |
+| `Shell 01`       | More with bash                            | 🆗 6/9   tasks         | ✅ **70**    |
+| `C 00`           | Reinventing standard library functions    | 🆗 8/9   tasks         | ✅ **85**    |
+| `C 01`           | Reinventing standard library functions    | 💯 9/9   tasks         | ✅ **100**   |
+| `C 02`           | Reinventing standard library functions    | 🆗 12/13 tasks         | ✅ **85**    |
+| `C 03`           | Reinventing standard library functions    | 💯 6/6   tasks         | ✅ **100**   |
+| `C 04`           | Reinventing standard library functions    | 💯 6/6   tasks         | ✅ **100**   |
+| `C 05`           | Different math functions                  | 🆗 8/9   tasks         | ✅ **80**    |
+| `C 06`           | argc & argv                               | 💯 4/4   tasks         | ✅ **100**   |
+| `C 07`           | Malloc & Free                             | 🆗 3/6   tasks         | ✅ **60**    |
+| `C 08`           | Header files & Macros                     | 💯 6/6   tasks         | ✅ **100**   |
+| `Rush 00`        | Group Project - Printing shapes           | -                      | ❌ **58**    |
+| `Rush 01`        | Group Project - Backtracking              | -                      | ❌ **0**     |
+| `Core Game`      | Group Project - Coding a fighting bot     | 🏅 4th Place / 24 teams | ❌ **0**     |
+
+
+
 
 ---
 
